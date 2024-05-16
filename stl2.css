@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    width: 100%;
+    height: 50px;
+    background-color: mediumspringgreen;
+    color: blue;
+}
+#Menu{
+    width: 100%;
+    height: 25px;
+    background-color: papayawhip;
+    color: red;
+}
+.Left{
+    width: 30%;
+    float: left;
+    background-color: mediumorchid;
+    color: black;
+}
+.Content{
+    width: 40%;
+    float: left;
+    background-color: green;
+    color: darkgray;
+}
+.Right{
+    width: 30%;
+    float: left;
+    background-color: brown;
+    color: white;
+}
+.Left, .Content, .Right{
+    height: 1000px;
+}
+footer{
+    background: yellow;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
